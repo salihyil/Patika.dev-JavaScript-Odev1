@@ -4,7 +4,7 @@ function askName () {
     isim.innerHTML = isimal;
 }
 
-function Days() {
+function days() {
     let day;
     switch (new Date().getDay()) {
     case 0:
@@ -49,5 +49,5 @@ function showTime() {
 
 showTime();
 askName();
-Days();
+days();
   
